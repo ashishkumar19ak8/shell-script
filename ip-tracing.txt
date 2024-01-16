@@ -1,4 +1,4 @@
 #!/bin/bash
 apt-get update
 apt-get install nginx -y
-echo "this is instance $(hostname)"> /var/www/html/index.html
+echo "this is instance private ip - $(hostname)"> /var/www/html/index.html
